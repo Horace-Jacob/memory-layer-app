@@ -69,7 +69,7 @@ publish:
   - provider: github
     owner: Horace-Jacob
     repo: memory-layer-app
-    releaseType: onTagOrDraft
+    releaseType: draft
 
 electronDownload:
   mirror: https://npmmirror.com/mirrors/electron/
