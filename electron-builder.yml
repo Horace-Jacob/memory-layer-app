@@ -68,8 +68,8 @@ appImage:
 publish:
   - provider: github
     owner: Horace-Jacob
-    repo: memory-layer
-    releaseType: release
+    repo: memory-layer-app
+    releaseType: onTagOrDraft
 
 electronDownload:
   mirror: https://npmmirror.com/mirrors/electron/
