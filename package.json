@@ -1,6 +1,6 @@
 {
   "name": "memory-layer-desktop",
-  "version": "1.0.17",
+  "version": "1.0.0",
   "description": "Memory Layer Desktop",
   "main": "./out/main/index.js",
   "author": "LON",
@@ -17,7 +17,7 @@
     "build": "npm run typecheck && electron-vite build",
     "postinstall": "electron-builder install-app-deps",
     "build:unpack": "npm run build && electron-builder --dir",
-    "build:win": "npm run build && electron-builder --win --publish=always",
+    "build:win": "npm run build && electron-builder --win --publish=draft",
     "build:mac": "electron-vite build && electron-builder --mac",
     "build:linux": "electron-vite build && electron-builder --linux",
     "build:host": "node out/main/build-native-host.js",
