@@ -1,0 +1,7 @@
+{
+  "name": "com.memorylayer.native_host",
+  "description": "MemoryLayer Desktop Native Messaging Host",
+  "type": "stdio",
+  "path": "D:\\startups\\memory-layer\\memory-layer-desktop\\out\\resources\\native-host.exe",
+  "allowed_origins": ["chrome-extension://lbifhofknjbeolifhcbdgfkejbejdmke/"]
+}
